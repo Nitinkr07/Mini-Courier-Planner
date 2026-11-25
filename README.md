@@ -31,10 +31,9 @@
 
 ```text
 Mini-Courier-Planner/
-├── README.md                  # Project documentation and setup instructions
-├── mini_courier_planner.py    # Complete modular implementation (Phases 1–4)
-├── datasets/                  # Sample input configurations
-│   └── sample_network.json    # Optional external dataset
-└── results/                   # Execution evidence
-    ├── console_trace.png      # Output trace for small dataset (DP table & route)
-    └── runtime_comparison.png # Scaling performance plot (N = 10 to 2500)
+├── README.md                    # Project documentation and setup instructions
+├── mini_courier_planner.py      # Complete modular implementation (Phases 1–4)
+└── results/                     # Execution evidence & charts
+    ├── console_trace_1.png      # Output trace Part 1 (Merge Sort & 0/1 Knapsack DP table)
+    ├── console_trace_2.png      # Output trace Part 2 (Dijkstra Route & Benchmark table)
+    └── runtime_comparison.png   # Scaling performance plot (N = 10 to 2500)
